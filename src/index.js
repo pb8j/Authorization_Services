@@ -30,8 +30,8 @@ const prepareAndStartServer = () => {
         const u1 = await User.findByPk(4);
         const r1 = await Role.findByPk(1);
         // u1.addRole(r1);
-        const response = await u1.hasRole(r1);
-        console.log(response);
+        // const response = await u1.hasRole(r1);
+        // console.log(response);
 
         // const service = new Use
     });
